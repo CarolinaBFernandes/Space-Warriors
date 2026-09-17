@@ -1,0 +1,38 @@
+{
+	"GAME_NAME": "Space Warriors",
+	"WINDOW_WIDTH": 1200,
+	"WINDOW_HEIGHT": 700,
+	"INITIAL_GAME_DIFFICULTY": 1,
+	"SPEED_BASE": 400,
+	"SCORE_MULTIPLIER_BASE": 100,
+
+	"DEVELOPMENT_MODE": false,
+
+	"levels": {
+		"01": {
+			"text": "Level 01",
+			"time": 20,
+			"pool_size": 4,
+			"respawn_delay_base": 7,
+			"music": "assets/songs/soundtrack/fase01.mp3"
+		},
+		"02": {
+			"text": "Level 02",
+			"time": 20,
+			"pool_size": 6,
+			"respawn_delay_base": 4,
+			"music": "assets/songs/soundtrack/fase02.mp3"
+		},
+		"03": {
+			"text": "Level 03",
+			"time": 20,
+			"pool_size": 10,
+			"respawn_delay_base": 2,
+			"music": "assets/songs/soundtrack/fase03.mp3"
+		},
+		"end": {
+			"music": "assets/songs/soundtrack/menu.mp3",
+			"text": "Parabens, voce venceu o jogo!\nDigite seu nome no console para\nfazer parte do podio dos vencedores."
+		}
+	}
+}
