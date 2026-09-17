@@ -1,26 +1,66 @@
-# Space Warriors
+# 🚀 Space Warriors
 
-Jogo feito em Python utilizando parcialmente a framework PyGame para a matéria de Laboratório de Programação de Jogos do Instituto Federal Fluminse (UFF). O readme a seguir será utilizado para descrever quais funcionalidades e o fluxo previsto pelos integrantes no início do período e o que foi, de fato, implementado ou não.
+<p align="center">
+  <strong>Um jogo de batalha espacial desenvolvido em Python.</strong>
+</p>
 
 ---
-## Fluxo proposto
 
-✅ Itens concluídos
+## 🎮 Sobre o jogo
 
-❌ Itens não implementados
+**Space Warriors** é um jogo de batalha espacial onde o jogador deve enfrentar seus inimigos, desviar dos ataques e sobreviver o maior tempo possível.
 
-- Abre o jogo no menu principal. Menu tem: ✅
-  - Botão para iniciar ✅
-  - Botão para continuar ❌
-  - Botão para ver as opções ❌
-  - Botão para finalizar o jogo ✅
-  - Botão de Ranking ✅
-- Ao clicar em "iniciar" o jogador para uma tela de seleção de personagem ❌
-- Ao selecionar sua personagem o jogador irá para a primeira fase com uma seção tutorial ❌
-- Dá início à primeira fase após o tutorial e o cronômetro da fase começa a rodar ✅
-- Começam a spawnar monstros e obstáculos ✅
-- Destruir inimigos geram pontos ✅
-- Tomar dano diminui a vida ✅
-- É possível encontrar upgrades temporários ao derrotar um inimigo ❌
-- Termina uma fase e o jogo é salvo ❌
-- Caso o jogador feche o jogo e volte deverá voltar da fase que salvou ❌
+Jogo feito em Python utilizando parcialmente a framework PyGame para a matéria de Laboratório de Programação de Jogos da Universidade Federal Fluminense (UFF). O readme a seguir será utilizado para descrever quais funcionalidades e o fluxo previsto pelos integrantes no início do período e o que foi, de fato, implementado ou não.
+
+---
+
+## 🕹️ Controles
+
+| Tecla | Ação |
+|-------|------|
+| ⬆️ W | Mover para cima |
+| ⬇️ S | Mover para baixo |
+| ⬅️ A | Mover para esquerda |
+| ➡️ D | Mover para direita |
+| 🔫 Espaço | Atirar |
+
+> Os controles podem variar de acordo com a configuração atual do jogo.
+
+---
+
+## ✨ Funcionalidades
+
+- 🚀 Movimentação da nave
+- 👾 Inimigos
+- 💥 Sistema de disparos
+- ❤️ Sistema de vida
+- 🏆 Sistema de pontuação
+- 🎵 Música e efeitos sonoros
+- 🖼️ Recursos visuais personalizados
+
+---
+
+## 🛠️ Tecnologias
+
+- 🐍 Python
+- 🎮 PPlay
+- 🖼️ Assets 2D
+- 🎵 Recursos de áudio
+
+---
+
+## 📁 Estrutura do projeto
+
+```text
+Space-Warriors/
+├── assets/
+│   ├── fonts/
+│   ├── images/
+│   └── songs/
+├── Core/
+├── GameObjects/
+├── Save/
+├── Scenes/
+├── config.json
+├── main.py
+└── README.md
